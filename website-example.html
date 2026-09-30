@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#242622" />
+    <title>zscmmr - studio | Website Example</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      media="print"
+      onload="this.media = 'all'"
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+    /></noscript>
+    <link rel="stylesheet" href="assets/css/website-example.min.css" />
+  </head>
+  <body>
+    <main class="page">
+      <div class="brand-header" aria-label="Brand logo">
+        <img src="assets/images/logo1.webp" alt="zscmmr logo" />
+        <span class="label">Selected Works</span>
+      </div>
+
+      <p class="intro-line">
+        A curated collection of digital concepts and launch-ready brand
+        experiences built with clarity and intent.
+      </p>
+
+      <section class="grid" aria-label="Website examples list">
+        <article
+          class="card"
+          tabindex="0"
+          data-href="https://zscmmr.github.io/LANDING-EXAMPLE-BRAND/"
+        >
+          <span class="card-tag">Ready-to-Launch Website</span>
+          <h2>Website Brand</h2>
+          <p>
+            Minimal, modern brand landing page designed for immediate commercial
+            use, featuring a clean visual identity and direct access to key
+            digital channels.
+          </p>
+          <a
+            href="https://zscmmr.github.io/LANDING-EXAMPLE-BRAND/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >View example ↗</a
+          >
+        </article>
+
+        <article
+          class="card"
+          tabindex="0"
+          data-href="https://zscmmr.github.io/Velvet-Brew/"
+        >
+          <span class="card-tag">Ready-to-Launch Website</span>
+          <h2>Velvet Brew Cafe</h2>
+          <p>
+            Reservation-focused cafe website designed to simplify customer
+            bookings, highlight the brand experience, and make table ordering
+            more convenient for visitors.
+          </p>
+          <a
+            href="https://zscmmr.github.io/Velvet-Brew/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >View example ↗</a
+          >
+        </article>
+
+        <article class="card inactive" aria-disabled="true" tabindex="-1">
+          <span class="card-tag">In development</span>
+          <h2>Creative Studio</h2>
+          <p>
+            Polished portfolio concept presenting services, visual direction,
+            and creative work with a more confident and professional digital
+            presence.
+          </p>
+        </article>
+
+        <article class="card inactive" aria-disabled="true" tabindex="-1">
+          <span class="card-tag">In development</span>
+          <h2>Brand Concept</h2>
+          <p>
+            Upcoming brand identity concept focused on storytelling, premium
+            positioning, and a more refined visual system for future launches.
+          </p>
+        </article>
+      </section>
+
+      <div
+        class="dev-popup"
+        id="devPopup"
+        role="alert"
+        aria-live="assertive"
+        aria-hidden="true"
+      >
+        <h3 class="popup-title">Project in Progress</h3>
+        <p class="popup-text">
+          Website masih dalam pengembangan. Silakan cek kembali nanti.
+        </p>
+        <button class="popup-close" type="button">Close</button>
+      </div>
+
+      <footer class="footer">
+        © 2026 zscmmr<br />
+        <a class="footer-email" href="mailto:nexbyte.wrld@gmail.com"
+          >nexbyte.wrld@gmail.com</a
+        >
+      </footer>
+    </main>
+
+    <a
+      class="floating-back"
+      href="index.html"
+      onclick="
+        history.back();
+        return false;
+      "
+      >Back to previous page</a
+    >
+
+    <script defer src="assets/js/website-example.min.js"></script>
+  </body>
+</html>
